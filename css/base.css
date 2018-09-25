@@ -1,0 +1,30 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei",sans-serif;
+}
+
+ul, li{
+	list-style: none;
+}
+
+a{
+	text-decoration: none;
+}
+
+body{
+	height: 100000px;
+}
+
+.iconfont{
+	font-family: "iconfont";
+}
+
+@font-face {
+  font-family: 'iconfont';  /* project id 851589 */
+  src: url('//at.alicdn.com/t/font_851589_nz3fqgwr1vh.eot');
+  src: url('//at.alicdn.com/t/font_851589_nz3fqgwr1vh.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_851589_nz3fqgwr1vh.woff') format('woff'),
+  url('//at.alicdn.com/t/font_851589_nz3fqgwr1vh.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_851589_nz3fqgwr1vh.svg#iconfont') format('svg');
+}
