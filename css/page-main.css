@@ -1,0 +1,11 @@
+.page-main{
+	width: 100%;
+	background: #f5f5f5;
+	padding-top: 22px;
+	overflow: hidden;
+}
+
+.page-main-in{
+	width: 1226px;
+	margin: 0 auto;
+}

@@ -1,0 +1,174 @@
+.mb-phone{
+	width: 1226px;
+	height: 686px;
+	margin-bottom: 8px;
+}
+
+.mb-phone a{
+	color: #424242;
+}
+
+.mbp-title{
+	width: 100%;
+	height: 58px;
+	line-height: 58px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-size: 16px;
+	color: #424242;
+}
+
+.mbp-title .all a{
+	transition: all .2s linear;
+}
+
+.mbp-title .all a:hover{
+	color: #FF6700;
+}
+
+.mbp-title .all a:hover .iconfont{
+	background: #FF6700;
+}
+
+.mbp-title h2{
+	font-size: 22px;
+	font-weight: 200;
+	line-height: 58px;
+	color: #333;
+}
+
+.mbp-title .iconfont{
+	/*display: block;*/
+	width: 16px;
+	height: 16px;
+	padding: 4px;
+	padding-left: 6px;
+	box-sizing: border-box;
+	margin-left: 8px;
+	border-radius: 50%;
+	background: #B0B0B0;
+	font-size: 12px;
+	line-height: 12px;
+	color: #fff;
+	font-style: normal;
+	vertical-align: 1px;
+}
+
+.mbp-con{
+	width: 100%;
+	height: 628px;
+}
+
+.mbp-con .left{
+	position: relative;
+	float: left;
+	width: 234px;
+	height: 614px;
+	transition: all 0.2s linear;
+}
+
+.mbp-con .left:hover{
+	transform: translateY(-3px);
+	box-shadow: 0 1px 50px 10px rgba(0,0,0,.1);
+}
+
+.mbp-con img{
+	width: 100%;
+	height: 100%;
+}
+
+.mbp-con .right{
+	float: left;
+	width: 992px;
+	height: 614px;
+}
+
+.mbp-con .right .item{
+	position: relative;
+	float: left;
+	width: 234px;
+	height: 300px;
+	box-sizing: border-box;
+	padding: 20px 0;
+	margin-left: 14px;
+	margin-bottom: 14px;
+	background: #fff;
+	transition: all .3s linear;
+}
+
+.mbp-con .right .item:hover{
+	transform: translateY(-3px);
+	box-shadow: 0 1px 50px 10px rgba(0,0,0,.1);
+}
+
+.mbp-con .right .item-img{
+	margin: 0 auto;
+	margin-bottom: 18px;
+	width: 160px;
+	height: 160px;
+}
+
+.mbp-con .right .item-img img{
+	width: 100%;
+	height: 100%;
+}
+
+.mbp-con .right .text1{
+	margin: 0 auto;
+	margin-bottom: 2px;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: center;
+	color: #333;
+}
+
+.mbp-con .right .text2{
+	margin: 0 10px 10px;
+	height: 18px;
+	font-size: 12px;
+	color: #B0B0B0;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.mbp-con .right .price{
+	color: #FF6700;
+	text-align: center;
+	font-size: 14px;
+}
+
+.mbp-con .right .price s{
+	color: #B0B0B0;
+}
+
+.mbp-con .right .text3{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	background: #83C44E;
+	width: 64px;
+	height: 20px;
+	font-size: 12px;
+	line-height: 20px;
+	text-align: center;
+	color: #fff;
+}
+
+.mbp-con .right .text-sp{
+	background: #E53935;
+}
+
+.televisionad{
+	width: 1226px;
+	height: 120px;
+	margin: 28px 0 22px;
+}
+
+.televisionad img{
+	width: 100%;
+	height: 100%;
+}

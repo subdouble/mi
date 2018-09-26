@@ -1,0 +1,261 @@
+.purchase{
+	width: 100;
+	height: 438px;
+}
+
+.pur-in{
+	width: 1226px;
+	height: 438px;
+	margin: 0 auto;
+}
+
+.pur-title{
+	width: 100%;
+	height: 58px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/*background: greenyellow;*/
+}
+
+.pur-title h2{
+	font-size: 22px;
+	line-height: 58px;
+	font-weight: 200;
+	color: #333;
+}
+
+.pur-title .more{
+	width: 70px;
+	height: 25px;
+}
+
+.pur-title .more a{
+	float: left;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 100%;
+	box-sizing: border-box;
+	font-size: 0;
+	text-align: center;
+	/*background: red;*/
+	border: 1px solid #e0e0e0;
+}
+
+.pur-title .more a:hover .iconfont{
+	color: #FF6700;
+}
+
+.pur-title .more .iconfont{
+	font-size: 16px;
+	font-style: normal;
+	line-height: 16px;
+	color: #E0E0E0;
+	
+}
+
+.pur-title .more .left{
+	transform: rotate(180deg);
+	line-height: 25px;
+	/*border-right: none;*/
+}
+
+.pur-title .more .right{
+	color: #B0B3BC;
+	margin-left: -1px;
+}
+
+.pur-con{
+	width: 100%;
+	height: 380px;
+	padding-bottom: 40px;
+	box-sizing: border-box;
+	/*background: yellow;*/
+}
+
+.pur-con .item-left{
+	float: left;
+	width: 234px;
+	height: 340px;
+	background: #F1EDED;
+	border-top: 1px solid #E53935;
+	box-sizing: border-box;
+	padding-top: 39px;
+}
+
+.pur-con .item-left .time1{
+	font-size: 21px;
+	color: #ef3a3b;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.pur-con .item-left .pur-img{
+	margin: 25px auto;
+	width: 34px;
+	height: 53px;
+	line-height: 53px;
+}
+
+.pur-con .item-left .text1{
+	text-align: center;
+	font-size: 15px;
+	color: rgba(0,0,0,.54);
+}
+
+.pur-con .item-left .time2{
+	margin: 0 auto;
+	margin-top: 28px;
+	width: 168px;
+	height: 46px;
+}
+
+.pur-con .item-left .time2 .split{
+	width: 15px;
+	height: 46px;
+	line-height: 46px;
+	color: #605751;
+	font-size: 28px;
+	background: transparent;
+}
+
+.pur-con .item-left .time2>div{
+	float: left;
+	width: 46px;
+	height: 46px;
+	background: #605751;
+	color: #fff;
+	font-size: 24px;
+	line-height: 46px;
+	text-align: center;
+}
+
+.pur-con .item-right{
+	float: left;
+	width: 992px;
+	height: 340px;
+	/*background: red;*/
+}
+
+.pur-con .item-right .item{
+	float: left;
+	width: 234px;
+	height: 340px;
+	margin-left: 14px;
+	background: #FAFAFA;
+	background: #fff;
+	box-sizing: border-box;
+	border-top: 1px solid #ffac13;
+	position: relative;
+	/*padding-top: 39px;*/
+	text-align: center;
+	font-size: 14px;
+}
+
+.pur-con .item-right .item .mask{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 10;
+	background: rgba(0,0,0,0.02);
+}
+
+.pur-con .item-right .item .item-con{
+	display: block;
+	width: 100%;
+	height: 100%;
+	padding-top: 40px;
+	box-sizing: border-box;
+	color: #212121;
+	/*background: rgba(0,0,0,0.02);*/
+}
+
+.pur-con .item-right .item-img{
+	width: 160px;
+	height: 160px;
+	margin: 0 auto;
+	margin-bottom: 22px;
+}
+
+.pur-con .item-right .item img{
+	width: 160px;
+	height: 160px;
+}
+
+.pur-con .item-right .item .text1{
+	margin: 0 auto;
+	margin-bottom: 3px;
+	font-size: 14px;
+	font-weight: 400;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.pur-con .item-right .item .text2{
+	margin: 0 auto;
+	margin-bottom: 12px;
+	font-size: 12px;
+	line-height: 18px;
+	color: #B0B0B0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.pur-con .item-right .price span{
+	color: #ff6709;
+}
+
+.pur-con .item-right .price s{
+	color: #B0B0B0;
+}
+
+.pur-con .item-right .item .text3{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 64px;
+	height: 20px;
+	background: #e53935;
+	line-height: 20px;
+	text-align: center;
+	font-size: 12px;
+	color: #fff;
+}
+
+.pur-con .item-right .item2{
+	border-top: 1px solid #83c44e;
+}
+
+.pur-con .item-right .item3{
+	border-top: 1px solid #2196f3;
+}
+
+.pur-con .item-right .item4{
+	border-top: 1px solid #e53935;
+}
+
+
+.quvbz{
+	height: 120px;
+	width: 100%;
+	margin-top: 2px;
+	margin-bottom: 42px;
+}
+
+.quvbz-in{
+	margin: 0 auto;
+	width: 1226px;
+	height: 120px;
+}
+
+.quvbz-in img{
+	width: 100%;
+	height: 100%;
+}
