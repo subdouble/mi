@@ -36,6 +36,27 @@
 	height: 82px;
 	padding: 0 3px;
 	box-sizing: border-box;
+	position: relative;
+}
+
+.con1-left .item2::after, .con1-left .item3::after, .con1-left .item5::after, .con1-left .item6::after{
+	content: "";
+	position: absolute;
+	top: 6px;
+	left: 0;
+	width: 1px;
+	height: 70px;
+	background: #665e57;
+}
+
+.con1-left .item4::before, .con1-left .item5::before, .con1-left .item6::before{
+	content: "";
+	position: absolute;
+	top: -1px;
+	left: 6px;
+	width: 64px;
+	height: 1px;
+	background: #665E57;
 }
 
 .con1-left a:hover{

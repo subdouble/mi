@@ -1,0 +1,199 @@
+.household .mbp-title .more{
+	padding: 12px 0 0 0;
+	box-sizing: border-box;
+	height: 42px;
+}
+
+.household .mbp-title .more>div{
+	float: left;
+	height: 22px;
+	font-size: 16px;
+	line-height: 22px;
+	margin: 0 0 0 30px;
+	cursor: pointer;
+}
+
+.household .mbp-title .more .active{
+	color: #ff6700;
+	border-bottom: 2px solid #ff6700;
+}
+
+.household .mbp-con .left:hover{
+	transform: none;
+	box-shadow: none;
+}
+
+.household .mbp-con .left>div{
+	width: 234px;
+	height: 300px;
+	background: #fff;
+	margin-bottom: 14px;
+	transition: all .3s linear;
+}
+
+.household .mbp-con .left>div:hover{
+	transform: translateY(-3px);
+	box-shadow: 0 10px 50px 10px rgba(0,0,0,.08);
+	/*box-shadow: 0 1px 50px 10px rgba(0,0,0,.1);*/
+}
+
+.household .mbp-con .left>div a{
+	width: 100%;
+	height: 100%;
+}
+
+.household .mbp-con .left>div img{
+	width: 100%;
+	height: 100%;
+}
+
+.household .mbp-con .right .item{
+	padding: 34px 0 20px;
+}
+
+.household .mbp-con .right .item-img{
+	width: 150px;
+	height: 150px;
+}
+
+.mbp-con .right .hide-text{
+	position: absolute;
+	/*bottom: -75px;*/
+	bottom: 0;
+	left: 0;
+	/*z-index: -1;*/
+	width: 234px;
+	height: 75px;
+	height: 0;
+	background: #FF6700;
+	font-size: 12px;
+	overflow: hidden;
+	transition: all .2s linear;
+	transition: height .2s linear;
+}
+
+.mbp-con .right .hide-text a{
+	display: block;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	padding: 8px 30px;
+	color: #757575;
+	text-align: left;
+}
+
+.mbp-con .right .hide-text div:nth-child(1){
+	color: #fff;
+	margin-bottom: 5px;
+}
+
+.mbp-con .right .hide-text div:nth-child(2){
+	color: rgba(255,255,255,.6);
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.mbp-con .right .item:hover .hide-text{
+	/*transform: translateY(-100px);*/
+	height: 75px;
+}
+
+.household .mbp-con .right .item8{
+	background: transparent;
+	padding: 0;
+}
+
+.household .mbp-con .right .item8:hover{
+	transform: none;
+	box-shadow: none;
+}
+
+.household .mbp-con .right .item8>div{
+	position: relative;
+	width: 100%;
+	height: 143px;
+	background: #fff;
+	margin-bottom: 14px;
+	padding-top: 40px;
+	box-sizing: border-box;
+	overflow: hidden;
+	transition: all .3s linear;
+}
+
+.household .mbp-con .right .item8>div:hover{
+	transform: translateY(-3px);
+	box-shadow: 0 10px 50px 10px rgba(0,0,0,.08);
+}
+
+.household .mbp-con .right .item8 a{
+	color: #333;
+}
+
+.household .mbp-con .right .item8-img{
+	position: absolute;
+	right: 20px;
+	top: 32px;
+	width: 80px;
+	height: 80px;
+}
+
+.household .mbp-con .right .item8-img *{
+	width: 100%;
+	height: 100%;
+}
+
+.household .mbp-con .right .item8-top .text1{
+	margin: 0px 110px 5px 30px;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: left;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.household .mbp-con .right .item8-top .price{
+	margin: 0 110px 0 30px;
+	font-size: 14px;
+	color: #FF6700;
+	text-align: left;
+}
+
+.household .mbp-con .right .item8-more{
+	position: absolute;
+	right: 35px;
+	top: 48px;
+	width: 48px;
+	height: 48px;
+}
+
+.household .mbp-con .right .item8-more a{
+	color: #333;
+}
+
+.household .mbp-con .right .item8-more a{
+	display: block;
+	color: #FF6700;
+	transform: rotate(180deg);
+}
+
+.household .mbp-con .right .item8-more .iconfont{
+	font-size: 60px;
+	line-height: 48px;
+	color: #FF6700;
+	font-style: normal;
+}
+
+.household .mbp-con .right .item8-btm .text1{
+	margin: 10px 110px 0 30px;
+	font-size: 18px;
+	color: #333;
+	text-align: left;
+}
+
+.household .mbp-con .right .item8-btm .text1 span{
+	display: block;
+	font-size: 12px;
+	color: #757575;
+}

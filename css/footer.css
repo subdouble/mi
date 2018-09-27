@@ -1,0 +1,138 @@
+.footer{
+	width: 100%;
+	height: 272px;
+	background: #fff;
+}
+
+.footer-in{
+	margin: 0 auto;
+	width: 1226px;
+	height: 272px;
+}
+
+.foot-top{
+	width: 100%;
+	height: 80px;
+	box-sizing: border-box;
+	padding: 27px 0;
+	border-bottom: 1px solid #E0E0E0;
+}
+
+.foot-top .item{
+	float: left;
+	width: calc(100% / 5);
+	height: 25px;
+	font-size: 16px;
+	line-height: 25px;
+	text-align: center;
+	box-sizing: border-box;
+	border-left: 1px solid #e0e0e0;
+}
+
+.foot-top .item1{
+	border-left: none;
+}
+
+.foot-top .item a{
+	font-size: 16px;
+	color: #616161;
+	line-height: 25px;
+	text-align: center;
+	transition: all .2s;
+}
+
+.foot-top .item a:hover{
+	color: #FF6700;
+}
+
+.foot-top .item .iconfont{
+	font-style: normal;
+	font-size: 24px;
+	height: 24px;
+	margin-right: 2px;
+	vertical-align: -4px;
+}
+
+.foot-top .item3 .iconfont{
+	vertical-align: 0;
+}
+
+.foot-btm{
+	padding: 40px 0;
+	box-sizing: border-box;
+}
+
+.foot-btm .item{
+	float: left;
+	width: 160px;
+	height: 112px;
+}
+
+.foot-btm .item dt{
+	margin: -1px 0 26px;
+	font-size: 14px;
+	line-height: 1.25;
+	color: #424242;
+}
+
+.foot-btm .item dd dt{
+	margin: 10px 0 0;
+	font-size: 12px;
+}
+
+.foot-btm .item a{
+	font-size: 12px;
+	color: #757575;
+}
+
+.foot-btm .contact{
+	float: right;
+	width: 244px;
+	height: 112px;
+	border-left: 1px solid #E0E0E0;
+	text-align: center;
+	color: #616161;
+}
+
+.foot-btm .contact .phone-num{
+	margin: 0 0 5px;
+	font-size: 22px;
+	color: #FF6700;
+	line-height: 22px;
+}
+
+.foot-btm .contact .text{
+	margin: 0 0 16px;
+	font-size: 12px;
+}
+
+.foot-btm .contact a{
+	display: inline-block;
+	width: 118px;
+	height: 28px;
+	line-height: 28px;
+	font-size: 12px;
+	color: #FF6700;
+	border: 1px solid #FF6700;
+	background: #fff;
+	text-align: center;
+	cursor: pointer;
+	transition: all .4s;
+}
+
+.foot-btm .contact .iconfont{
+	color: #FF6700;
+	font-size: 12px;
+	line-height: 28px;
+	font-style: normal;
+	transition: all .4s;
+}
+
+.foot-btm .contact a:hover .iconfont{
+	color: #fff;
+}
+
+.foot-btm .contact a:hover{
+	background: #FF6700;
+	color: #fff;
+}
