@@ -85,6 +85,10 @@
 	color: #757575;
 }
 
+.foot-btm .item a:hover{
+	color: #FF6700;
+}
+
 .foot-btm .contact{
 	float: right;
 	width: 244px;

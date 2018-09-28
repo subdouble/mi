@@ -104,14 +104,43 @@
 }
 
 .header .hide-con .con{
+	position: relative;
+	float: left;
 	width: 180px;
 	height: 100%;
-	/*padding: 35px 12px 0;*/
-	/*padding-bottom: 25px;*/
-	box-sizing: border-box;
+	/*box-sizing: border-box;*/
+	padding: 0 12px 0 12px;
 	text-align: center;
-	position: relative;
 	font-size: 12px;
+}
+
+.header .hide-con .con:first-child::before{
+	display: none;
+}
+
+.header .hide-con .con::before{
+	position: absolute;
+	left: 0;
+	top: 35px;
+	z-index: 1;
+	width: 1px;
+	height: 100px;
+	content: "";
+	background-color: #e0e0e0;
+}
+
+.header .hide-con .con .text{
+	position: absolute;
+	top: 0;
+	left: 50%;
+	z-index: 1;
+	transform: translateX(-50%);
+	text-align: center;
+	height: 18px;
+	font-size: 12px;
+	padding: 1px 20px;
+	border: 1px solid #ff6700;
+	color: #ff6700;
 }
 
 .header .hide-con .con a{
