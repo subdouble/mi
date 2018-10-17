@@ -1,10 +1,10 @@
-var topHeight = 0;
+var schTopHeight = 0;
 var schFx = document.querySelector(".sch-fx");
 console.log(schFx);
 
 window.onscroll = function(){
-	topHeight = document.documentElement.scrollTop;
-	if(topHeight > 1000) {
+	schTopHeight = document.documentElement.scrollTop;
+	if(schTopHeight > 1000) {
 		schFx.style.top = "0";
 		setTimeout(function(){
 			schFx.style.transition = "all 0s";

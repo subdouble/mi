@@ -8,7 +8,7 @@ console.log(slideCircle);
 let nSlide = 1;
 
 var slideMove = function () {
-    console.log("before: " + nSlide);
+//  console.log("before: " + nSlide);
     if (nSlide > 4) {
         nSlide = 0;
     }
@@ -19,7 +19,7 @@ var slideMove = function () {
     slideImgList[nSlide].classList.add("active");
     slideCircle[nSlide].classList.add("active");
     nSlide++;
-    console.log("after: " + nSlide);
+//  console.log("after: " + nSlide);
 };
 
 var slideTimer = setInterval(slideMove, 2000);
@@ -28,7 +28,7 @@ var slideBox = document.querySelector(".ban-cast");
 console.log(slideBox);
 
 slideBox.onmouseover = function () {
-    console.log("now: " + nSlide);
+//  console.log("now: " + nSlide);
     clearInterval(slideTimer);
 };
 

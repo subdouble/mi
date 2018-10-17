@@ -1,4 +1,5 @@
 .floor{
+	display: none;
 	border: 1px solid #F5F5F5;
 }
 
@@ -14,10 +15,11 @@
 	height: 32px;
 	line-height: 32px;
 	border-bottom: 1px solid #F5F5F5;
+	cursor: pointer;
 }
 
 
-.floor .floor7{
+.floor .floor8{
 	border: none;
 }
 

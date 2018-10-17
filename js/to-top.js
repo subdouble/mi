@@ -1,15 +1,16 @@
-var toTop = document.querySelector(".to-top");
+var toTopBar = document.querySelector(".to-top");
 var topHeight = document.documentElement.scrollTop;
 if (topHeight > 1000) {
-	toTop.style.visibility = "visible";
+	toTopBar.style.visibility = "visible";
 }
 
 window.onscroll = function(){
+	console.log("zhixingle");
 	topHeight = document.documentElement.scrollTop;
 	if(topHeight > 1000) {
-		toTop.style.visibility = "visible";
+		toTopBar.style.visibility = "visible";
 	}
 	else {
-		toTop.style.visibility = "hidden";
+		toTopBar.style.visibility = "hidden";
 	}
 }
