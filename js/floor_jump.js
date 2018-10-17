@@ -16,10 +16,10 @@ for(let i = 0; i < jumpList.length - 1; i ++){
 		var floorTop = floorList[i].offsetTop;
 		if(toTop.scrollTop < floorTop){
 			var jumpTimer = setInterval(function(){
-				if(toTop.scrollTop >= floorTop){
+				if(toTop.scrollTop > floorTop){
 					clearInterval(jumpTimer);
 					toTop.scrollTop = floorTop;
-					console.log("clearup");
+					console.log("cleardown");
 				}
 				else{
 					toTop.scrollTop += 50;
@@ -28,10 +28,10 @@ for(let i = 0; i < jumpList.length - 1; i ++){
 		}
 		else{
 			var jumpTimer = setInterval(function(){
-				if(toTop.scrollTop <= floorTop){
+				if(toTop.scrollTop < floorTop){
 					clearInterval(jumpTimer);
 					toTop.scrollTop = floorTop;
-					console.log("cleardown");
+					console.log("clearup");
 				}
 				else{
 					toTop.scrollTop -= 50;
