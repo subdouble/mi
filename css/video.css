@@ -5,6 +5,10 @@
 	margin-top: 20px;
 }
 
+.video a {
+    color: #424242;
+}
+
 .vid-con{
 	width: 100%;
 	height: 285px;

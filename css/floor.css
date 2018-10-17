@@ -1,0 +1,36 @@
+.floor{
+	border: 1px solid #F5F5F5;
+}
+
+.floor .floor-list{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.floor-item{
+	width: 100%;
+	height: 32px;
+	line-height: 32px;
+	border-bottom: 1px solid #F5F5F5;
+}
+
+
+.floor .floor7{
+	border: none;
+}
+
+.floor .item-link{
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	font-size: 14px;
+	color: #757575;
+}
+
+.floor .item-link:hover{
+	background: #FF6700;
+	color: #fff;
+}

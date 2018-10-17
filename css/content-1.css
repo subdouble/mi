@@ -10,47 +10,10 @@
 	height: 420px;
 }
 
-.contt-con .ovhd-box{
-    position: relative;
-    float: left;
-    width: 296px;
-    height: 425px;
-    margin-right: 14px;
-    /*transition: all .2s linear;*/
-    overflow: hidden;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -ms-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-}
-
-.contt-con .ovhd-4{
-    float: right;
-    margin: 0;
-}
-
-.contt-con .ovhd-4 .item-list{
-	width: 400%;
-}
-
-.contt-con .item-list{
-    float: left;
-    position: relative;
-    left: 0;
-    width: 300%;
-    height: 100%;
-    -webkit-transition: all .3s;
-    -moz-transition: all .3s;
-    -ms-transition: all .3s;
-    -o-transition: all .3s;
-    transition: all .3s;
-}
-
 .contt-con .item{
 	position: relative;
 	float: left;
-	/*margin-right: 14px;*/
+	margin-right: 14px;
 	width: 296px;
 	height: 100%;
 	background: #fff;
@@ -60,7 +23,7 @@
 }
 
 .contt-con .item4{
-	float: left;
+	float: right;
 	margin: 0;
 	border-top: 1px solid #2196F3;
 	color: #2196F3;
@@ -152,7 +115,7 @@
 	height: 154px;
 }
 
-.contt-con .ovhd-box:hover{
+.contt-con .item:hover{
 	transform: translateY(-2px);
 	box-shadow: 0 10px 50px 10px rgba(0,0,0,.08);
 }
@@ -189,15 +152,7 @@
 	transition: all .5s;
 }
 
-.contt-con .circle .dot:hover{
-    background: #FF6700;
-}
-
-.contt-con .circle .active:hover{
-    background-color: transparent;
-}
-
-.contt-con .circle .active{
+.contt-con .active .dot{
 	cursor: default;
 	border-color: #FF6700;
 	background-color: transparent;	
@@ -214,7 +169,6 @@
 	position: absolute;
 	right: 0;
 	top: 50%;
-    cursor: pointer;
 	transform: translateY(-50%);
 }
 
@@ -227,7 +181,7 @@
 	display: block;
 	opacity: 0;
 	transition: all .6s;
-	/*cursor: pointer;*/
+	cursor: default;
 	width: 20px;
 	height: 24px;
 	padding: 12px 0;
@@ -240,16 +194,8 @@
 
 .contt-con .controls .iconfont{
 	font-style: normal;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
 }
 
-.contt-con .ovhd-box:hover .left-control, .contt-con .ovhd-box:hover .right-control{
+.contt-con .item:hover .left-control, .contt-con .item:hover .right-control{
 	opacity: 1;
-}
-
-.contt-con .ovhd-box .left-control:hover, .contt-con .ovhd-box .right-control:hover{
-    background-color: rgba(66,66,66, .6);
 }

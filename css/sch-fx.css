@@ -1,0 +1,12 @@
+.sch-fx{
+	transition: all .5s;
+}
+
+.sch-fx-in{
+	width: 1226px;
+	height: 100%;
+	margin: 0 auto;
+	border: 1px solid #FF6700;
+	border-top: none;
+	background: #fff;
+}
