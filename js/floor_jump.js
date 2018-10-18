@@ -9,9 +9,9 @@ console.log(floorList);
 
 document.documentElement.scrollTop = 1;
 var toTop = document.documentElement.scrollTop == 0 ? document.body : document.documentElement;
-document.documentElement.scrollTop = 0;
+//document.documentElement.scrollTop = 0;
 
-for(let i = 0; i < jumpList.length - 1; i ++){
+for(let i = 0; i < jumpList.length - 2; i ++){
 	jumpList[i].onclick = function(){
 		var floorTop = floorList[i].offsetTop;
 		if(toTop.scrollTop < floorTop){
