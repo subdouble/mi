@@ -34,5 +34,5 @@
 
 .floor .item-link:hover{
 	background: #FF6700;
-	color: #fff;
+	color: #fff !important;
 }

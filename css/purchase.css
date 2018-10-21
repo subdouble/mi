@@ -33,6 +33,8 @@
 .pur-title .more a{
 	float: left;
 	display: flex;
+	width: 33px;
+	height: 23px;
 	justify-content: center;
 	align-items: center;
 	width: 50%;
@@ -42,9 +44,18 @@
 	text-align: center;
 	/*background: red;*/
 	border: 1px solid #e0e0e0;
+	user-select: none;
 }
 
 .pur-title .more a:hover .iconfont{
+	/*color: #FF6700;*/
+}
+
+.pur-title .more .active:hover{
+	cursor: pointer;
+}
+
+.pur-title .more .active:hover .iconfont{
 	color: #FF6700;
 }
 
@@ -59,12 +70,14 @@
 .pur-title .more .left{
 	transform: rotate(180deg);
 	line-height: 25px;
+	/*cursor: default;*/
 	/*border-right: none;*/
 }
 
 .pur-title .more .right{
 	color: #B0B3BC;
 	margin-left: -1px;
+	/*cursor: pointer;*/
 }
 
 .pur-con{
@@ -134,16 +147,25 @@
 
 .pur-con .item-right{
 	float: left;
-	width: 992px;
+	width: 978px;
 	height: 340px;
 	/*background: red;*/
+	margin-left: 14px;
+	overflow: hidden;
+}
+
+.pur-con .item-list{
+	width: 2232px;
+	margin-left: 0;
+	transition: all .5s;
 }
 
 .pur-con .item-right .item{
 	float: left;
 	width: 234px;
 	height: 340px;
-	margin-left: 14px;
+	/*margin-left: 14px;*/
+	margin-right: 14px;
 	background: #FAFAFA;
 	background: #fff;
 	box-sizing: border-box;
