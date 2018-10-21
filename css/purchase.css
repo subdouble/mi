@@ -51,6 +51,10 @@
 	/*color: #FF6700;*/
 }
 
+.pur-title .more .active .iconfont{
+	color: #757575;
+}
+
 .pur-title .more .active:hover{
 	cursor: pointer;
 }
